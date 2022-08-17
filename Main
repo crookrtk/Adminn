@@ -5,6 +5,6 @@ Rostruct
     .fetchLatest("crookrtk", "Adminn")
     -- Then, build and start all scripts
     :andThen(function(pkg)
-        pkg:build("src/", {Name = "HBAdmin"})
+        pkg:build("src/", {Name = "AnarkysPrivAdmin"})
         pkg:start()
     end)
