@@ -13,7 +13,7 @@ local UI = require(hbAdmin.UI.UIApp)
 
 
 local notify = function(Message, Title, time)
-    UI:Notify(Title or "Homebrew Admin", Message, time)
+    UI:Notify(Title or "Anarky's Admin", Message, time)
 end
 
 
